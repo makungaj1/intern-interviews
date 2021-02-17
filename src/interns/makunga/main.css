@@ -1,0 +1,62 @@
+
+:root {
+    --color-white: #ffffff;
+    --color-cerulean: #0099D7;
+    --color-graydove: #C5D6E6;
+    --color-success: #6BC4A6;
+    --color-error: #F76E40;
+}
+
+body {
+    background-color: var(--color-graydove);
+    margin: unset;
+}
+
+.show-case {
+    background: url("./IMG_5679.JPG") repeat;
+    height: 50vh;
+    justify-content: center;
+    margin-top: -16px;
+    display: flex;
+}
+
+.welcome-text {
+    margin: 15%;
+    background-color: var(--color-cerulean);
+    color: var(--color-white);
+    width: 20%;
+    height: 5%;
+    text-align: center;
+    padding: 1%;
+    opacity: 0.8;
+    border-radius: 5px;
+    font-size: 1.5vw;
+    font-style: italic;
+}
+
+.container {
+    margin: 5%;
+}
+
+h1, p {
+    font-family: 'Neuton', serif;
+}
+
+p {
+    font-size: 1.5vw;
+}
+
+@keyframes h1-text {
+    0% { color: var(--color-graydove); }
+    25% { color: var(--color-success); }
+    75% { color: var(--color-white); }
+    100% { color: var(--color-error); }
+}
+
+h1 {
+    font-size: 6vw;
+    color: var(--color-white);
+    animation-name: h1-text;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
