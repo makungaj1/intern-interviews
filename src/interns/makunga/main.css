@@ -1,0 +1,16 @@
+
+.show-case {
+    background: url("./IMG_5679.JPG") no-repeat 0;
+    height: 50vh;
+    justify-content: center;
+}
+
+.welcome-text {
+    background-color: #003699;
+    color: white;
+    margin: auto;
+    height: 10%;
+    text-align: center;
+    padding: 1%;
+    opacity: 0.8;
+}
