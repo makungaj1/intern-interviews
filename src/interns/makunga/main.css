@@ -1,16 +1,46 @@
 
+:root {
+    --color-white: #ffffff;
+    --color-cobalt: #1878E0;
+    --color-cerulean: #0099D7;
+    --color-grayfog: #EBEFF6;
+    --color-graydove: #C5D6E6;
+    --color-graymidnight: #324350;
+    --color-grayshadow50: #416581;
+    --color-graysteel: #5F83A5;
+    --color-grayblue: #EAF0F7;
+    --color-grayalt: #F8F9FA;
+    --color-success: #6BC4A6;
+    --color-error: #F76E40;
+}
+
+body {
+    background-color: var(--color-graydove);
+    margin: unset;
+}
+
 .show-case {
-    background: url("./IMG_5679.JPG") no-repeat 0;
+    background: url("./IMG_5679.JPG") repeat;
     height: 50vh;
     justify-content: center;
+    margin-top: -16px;
+    display: flex;
 }
 
 .welcome-text {
-    background-color: #003699;
-    color: white;
-    margin: auto;
-    height: 10%;
+    margin: 15%;
+    background-color: var(--color-cerulean);
+    color: var(--color-white);
+    width: 20%;
+    height: 5%;
     text-align: center;
     padding: 1%;
     opacity: 0.8;
+    border-radius: 5px;
+    font-size: 1em;
+    font-style: italic;
+}
+
+.container {
+    margin: 5%;
 }
